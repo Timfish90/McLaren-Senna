@@ -85,7 +85,7 @@ inner-column {
 }
 
 .links p:hover {
-    background-color: orange;
+    background-color: red;
     color: black;
 }
 
@@ -106,6 +106,7 @@ inner-column {
     background-image: url("https://wallpaperaccess.com/full/1152832.jpg"); 
     background-position: 30% 10%;
     height: 100vh;
+    border-bottom: 5px solid red;
 }
 
 #home-title {
@@ -128,12 +129,13 @@ inner-column {
     font-size: 20px;
     padding: 5px 25px;
     border-radius: 25px;
-    border-color: orange;
+    border-color: red;
 }
 
 .home-test-drive-button:hover {
-    background-color: orange;
+    background-color: red;
     color: black;
+    border-color: black;
 }
 
 .home-image {
@@ -181,4 +183,5 @@ inner-column {
     max-width: 200px;
     object-fit: contain;
     height: auto;
+    border: 2px solid red;
 }
