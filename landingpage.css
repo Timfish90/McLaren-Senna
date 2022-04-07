@@ -1,0 +1,184 @@
+/*-- FORMAT --*/
+
+html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100&display=swap');
+
+.bg-color {
+    background-color: black;
+}
+
+/*-- Overall structure of the website --*/
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    border: solid 4px blue;
+    display: flex
+    margin: auto
+    width: 80%
+    height: 500 px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+inner-column {
+    padding: 100px;
+    display: block;
+    border: solid 4px red;
+
+}
+
+/*-- HEADER -- */
+
+.header {
+
+}
+
+.navmenu {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2px 0px;
+    padding-right: 40px;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    flex direction: row;
+}
+
+
+
+.page-title {
+    font-size: 30px;
+    width 10%;
+    justify-content: space-between;
+    padding-left: 50px;
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    flex direction: row;
+    width: 15%;
+    padding-top: 20px;
+    padding-right: 50px;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.links p {
+    padding: 10px;
+}
+
+.links p:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+/*-- HOME PAGE --*/
+
+.home {
+    display: flex;
+    margin: 0px;
+    height: 1000 px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 70px;
+    padding-top: 40px;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url("https://wallpaperaccess.com/full/1152832.jpg"); 
+    background-position: 30% 10%;
+    height: 100vh;
+}
+
+#home-title {
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+
+.home-text {
+    width: 35%;
+    font-size: 20px;
+    color: white;
+    flex: 1
+    letter-spacing: 15px;
+    word-spacing: 2px;
+}
+
+.home-test-drive-button {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 5px 25px;
+    border-radius: 25px;
+    border-color: orange;
+}
+
+.home-test-drive-button:hover {
+    background-color: orange;
+    color: black;
+}
+
+.home-image {
+    flex: 1;
+}
+
+/*-- SPECIFICATIONS PAGE --*/
+
+.specifications {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+    height: 100vh;
+    background-color:black;
+    gap: 20px;
+}
+
+.spec-title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.spec-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-direction: row;
+    font-size: 15px;    
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.spec-detail {
+    color: white;
+    display: block;
+}
+
+.spec-image {
+    max-height: 100%;
+    max-width: 200px;
+    object-fit: contain;
+    height: auto;
+}
